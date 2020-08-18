@@ -22,3 +22,34 @@ div.text, a {
     color: #ad8f59;
 }
 
+div#topBorder, h3 {
+    background-color: #ad8f59;
+}
+
+div.sectionWrapper {
+    border-top-color: #ad8f59;
+}
+
+/* Grey */
+td.question, td.shortHelp, div.charsRemaining, div.wordsUsed, span.checkbox label {
+    color: #1d1d1d;
+}
+
+div#topMenu a.active, div#topMenu a:hover, div#topMenu a:focus {
+    border-bottom-color: #1d1d1d;
+}
+
+input.required, select.required, textarea.required, div#requiredFields, iframe.required {
+    border-left-color: #1d1d1d;
+}
+/* End change BAFTA blue */
+
+div#footerLogo{
+    margin-top: 40px;
+    padding-bottom: 50px;
+    background-image: url(/images/bottomBaftaLogo.png);
+    width: 320px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: 320px 60px;
+}
