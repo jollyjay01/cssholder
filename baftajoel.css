@@ -1,7 +1,7 @@
 div#headerLogo {
     background-image: url(/images/baftaLogoAdmin.png);
     width: 313px;
-    height: 272px;
+    height: 172px;
     float: left;
     background-repeat: no-repeat;
     margin:14px 20px 14px -50px;
@@ -13,7 +13,7 @@ div#contentOuterWrapper {
 }
 
 body {
-    background: #fff url(/images/baftaLogoAdmin.png);
+
 }
 
 /* Change BAFTA blue */
