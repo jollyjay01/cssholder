@@ -7,6 +7,18 @@ div#headerLogo {
     margin:14px 20px 14px -50px;
 }
 
+body {
+    margin: 0px;
+    /*background: #000 url("http://www.broadcastdigitalawards.co.uk/media/templates/EVMBI/MBI_BROADCAST_DIGITAL_AWARDS_2015_(RESPONSIVE)/main_bg.jpg");*/
+    background: #13142b url(https://mbinsight.azurewebsites.net/production/events/broadcastawards/2020-bg.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: center center;
+    color: #fff;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    min-height: 100%;
+}
+
 div#contentOuterWrapper {
     background-image: none;
     background-color: #fff;
