@@ -1,54 +1,423 @@
-div#headerLogo {
-    width: 313px;
-    height: 172px;
-    float: left;
+html { 
+    height: 100%;
+    background: #000;
+}	
+
+body {
+    margin: 0px;
+    /*background: #000 url("http://www.broadcastdigitalawards.co.uk/media/templates/EVMBI/MBI_BROADCAST_DIGITAL_AWARDS_2015_(RESPONSIVE)/main_bg.jpg");*/
+    background: #13142b url(https://mbinsight.azurewebsites.net/production/events/broadcastawards/2020-bg.jpg);
     background-repeat: no-repeat;
-    margin:14px 20px 14px -50px;
+    background-size:100% 100%;
+    background-position: center center;
+    color: #fff;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    min-height: 100%;
+}
+
+div.dashedLine {
+    border: none;
+}
+
+div#mainWrapper {
+    /*background: linear-gradient(to right, rgba(255,0,0,0) 0%, rgba(255,0,0,0) 50%, rgba(0,0,0,1) 99%, rgba(0,0,0,1) 100%);*/
+    background-size: 1170px; 
+    padding-left: 20px;
+    min-height: 1210px;
+}
+
+/*
+H1 bold 28px/28px Trebuchet MS,sans-serif
+General para 14px/20px Arial,Helvetica,sans-serif
+*/
+
+a {
+    color: #f9d43b;
+}
+
+div#topBorder {
+    display: none;
+}
+
+div#headerWrapper {
+    height: 140px;
+    margin-left: 0px;
+}
+
+div#headerLogo {
+    background-image: url(https://mbinsight.azurewebsites.net/production/events/broadcastawards/logo-2020.png);
+    background-repeat: no-repeat;
+    background-position: 35px 30px;
+    background-size: 200px 161px;
+    width: 235px;
+    height: 200px;
+    float: left;
+}
+
+div#topMenu ul li:last-of-type a {
+    border-right: 0px!important;
+}
+
+div#topMenu a {
+    background-color: #000;
+    color: #f9d43b;
+    border-right: 1px solid #fff!important;
+    font-weight: normal;
+}
+
+div#topMenu li {
+    background-color: #000;
+    color: #f9d43b;
+    margin-right: -4px;
+}
+
+div#topMenu a:hover {
+    border: none;
+    color: #000;
+    background-color: #f9d43b;
+}
+
+div#topMenu a.active {
+    border: none;
+    color: inherit;
+    background-color: inherit;
+}
+
+div.loggedInAs {
+    color: #ccc;
+    font-weight: bold;
+}
+
+div#topRightMenu {
+    margin-top:20px;
+}
+
+div#topRightMenu > ul li {
+    color: #fff;
+    font-size: 13px;
+}
+
+div#topRightMenu ul li.divider {
+    border: none;
+}
+
+div#topRightMenu a {
+    color: #f9d43b;
+    font-weight: bold;
+    
+}
+
+div#topBorder {
+    background-color: #7c0a02;
+}
+
+div.text {
+        color: #7c0a02;
 }
 
 div#contentOuterWrapper {
     background-image: none;
-    background-color: #fff;
+    margin-top: 0px;
 }
 
-body {
-
+div.text {
+    color: #fff;
 }
 
-/* Change BAFTA blue */
-/* Gold */
-div.text, a {
-    color: #ad8f59;
+div#contentInnerWrapper {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 50px;
+    padding-top: 30px;
 }
 
-div#topBorder, h3 {
-    background-color: #ad8f59;
+
+div#contentOuterWrapper.login div#contentInnerWrapper {
+    padding-top: 100px;
+}
+
+div#loginBoxWrapper {
+    background-color: #000;
+}
+
+div#loginBoxWrapper p {
+    color: #000;
+}
+
+div#contentOuterWrapper.login input {
+    border-left: 10px #eb991b solid;
+}
+
+.button, input[type=button], input[type=submit] {
+    background: #000!important;
+    color: #f9d43b;
+    border: 1px solid #fff!important;
+    border-left: none
+}
+
+.button:hover, input[type=button]:hover, input[type=submit]:hover,
+.button:focus, input[type=button]:focus, input[type=submit]:focus {
+    background: #f9d43b!important;
+    color: #000;
 }
 
 div.sectionWrapper {
-    border-top-color: #ad8f59;
+    margin-top: 20px;
+    border-top: 10px #654198 solid;
+    border-bottom: 10px #654198 solid;
+    background-color: #000;
+    font-weight: normal;
 }
 
-/* Grey */
-td.question, td.shortHelp, div.charsRemaining, div.wordsUsed, span.checkbox label {
-    color: #1d1d1d;
+div#registerHeading {
+    margin-left: 0px;
+    border-left: 1px solid #fff
 }
 
-div#topMenu a.active, div#topMenu a:hover, div#topMenu a:focus {
-    border-bottom-color: #1d1d1d;
+div#loginHeading, div#registerHeading {
+    background-color: #000;
+    border-bottom: 1px solid #fff;
 }
 
-input.required, select.required, textarea.required, div#requiredFields, iframe.required {
-    border-left-color: #1d1d1d;
+div#registerHeading a {
+    color: #f9d43b;
 }
-/* End change BAFTA blue */
 
-div#footerLogo{
-    margin-top: 40px;
-    padding-bottom: 50px;
-    background-image: url(/images/bottomBaftaLogo.png);
-    width: 320px;
-    height: 60px;
-    background-repeat: no-repeat;
-    background-size: 320px 60px;
+div#requiredFields {
+    border-left: 10px #de510e solid;
+}
+
+input.required, select.required, textarea.required, iframe.required {
+    border-left: 10px #de510e solid;
+}
+
+div.rowCount {
+    margin-left: 29em;
+}
+
+hr {
+    border-color: #000;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+h2 {
+    background-color: #654198;
+    font-size: 16px;
+}
+
+h3 {
+    /*background-color: #84171A;*/
+    background-color: #2E1648;
+    font-weight: bold;
+}
+
+table {
+    background-color: #fff;
+}
+
+table.questionList {
+    background-color: inherit;
+}
+
+th, td {
+    background-color: #000;
+    border: none;
+}
+
+tr.creditNote td {
+    background-color: #666;
+}
+
+table.entryList {
+    padding-right: 0px;
+    border-right: 20px solid black;
+}
+
+table.questionList {
+    background-color: #000;
+}
+
+table.questionList td.transparent {
+    color: #fff;
+    background-color: #000;
+}
+
+table.questionList td {
+    color: #fff;
+}
+
+table.questionList td.question {
+    color: #fff;
+}
+
+div.text2, div.text3 {
+    background-color: #000;
+    padding-top: 1px;
+}
+
+div.text, div.text2, div.text3 {
+    padding-left: 20px;
+}
+
+div.text, div.text2 {
+    padding-top: 20px;
+}
+
+div.dropdownIndicator {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 4px 24px 4px 5px
+}
+
+ul.dropdown li a {
+    background-color: #000;
+    color: #f9d43b!important;
+    border: 1px solid #fff;
+}
+
+div#bottomText {
+    background-color: #000;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+div.error {
+    color: #654198;
+    border-color: #654198;
+}
+
+/* ===================== PRINTED ENTRY SUMMARY ====================== */
+
+body.print {
+    background: #fff;
+    background-color: #fff;
+    margin: 0px;
+    color: #000;
+    width: 100%;
+}
+
+body.print a {
+    color: #654198;
+}
+
+body.print h3 {
+    background-color: #000;
+}
+
+body.print div#headerLogo {
+    background-image: url(/images/broadcastdigitalawards/header_black.png);
+    height: 59px;
+    width: 187px;
+    background-position: 40px 0px;
+    background-size: 80%;
+}
+
+body.print table.questionList td.transparent {
+    background-color: #fff;
+}
+
+div#printHeader {
+    margin: 0px -10px 20px -40px; 
+    border: 20px solid #000;
+    border-width: 20px 0px 20px 0px;
+    overflow: hidden;
+    padding: 20px 0px;
+}
+
+body.print div.text2, body.print div.text3 {
+    background-color: #fff;
+}
+
+div#printDetails {
+    margin-right: 30px;
+}
+
+body.print div#contentInnerWrapper {
+    background-color: #fff;
+    padding: 0px;
+}
+
+body.print td, body.print th {
+    background-color: #fff;
+    color: #000;
+}
+
+body.print td.transparent {
+    color: #000;
+    padding-left: 40px;
+}
+
+body.print td {
+    padding-left: 40px;
+}
+
+body.print td h1, body.print td h2, body.print td h3 {
+    margin-left: -40px;
+}
+
+body.print hr {
+    display: none;
+}
+
+body.print td {
+    font-weight: normal;
+}
+
+body.print div.question {
+    font-weight: bold;
+}
+
+body.print div.text3 {
+    font-size: 100%;
+}
+
+body.print td, body.print div.answer, body.print label, body.print label span {
+    font-size: 70%;
+}
+
+/* ===================== VIEWING PORTAL ====================== */
+
+div.attribute {
+    border-top: 1px dotted #84171A;
+    color: #fff;
+    font-weight: bold;
+}
+
+div.value {
+    border-top: 1px dotted #84171A;
+    border-bottom: none;
+}
+
+div.videoList:before {
+    content: "Videos and downloads";
+    font-weight: bold;
+    color: #000;
+}
+
+div.nominations, div.noVideo {
+    color: #fff;
+    font-weight: bold;
+    border-top: 1px dotted #84171A;
+    margin: -1px -240px 0px 40px;
+    padding: 12px 250px 12px 10px ;
+}
+
+div.intro {
+    margin: 0px 40px 0px -20px;
+    border: solid #000;
+    border-width: 0 0 10px 0;
+    background-color: #000;
+}
+
+.complete, .approved, tr.approved td {
+	color:#000 !important;
+}
+
+.notStarted, .inProgress, .awaitingApproval, tr.approved td.awaitingApproval, tr.awaitingApproval td {
+	color:#000 !important;
 }
