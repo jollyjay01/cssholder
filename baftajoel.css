@@ -4,15 +4,7 @@ html {
 }	
 
 body {
-    margin: 0px;
-    /*background: #000 url("http://www.broadcastdigitalawards.co.uk/media/templates/EVMBI/MBI_BROADCAST_DIGITAL_AWARDS_2015_(RESPONSIVE)/main_bg.jpg");*/
-    background: #13142b url(https://pbs.twimg.com/profile_images/795653136341958656/8xawBVhw.jpg);
-    background-repeat: repeat;
-    background-size:100% 100%;
-    background-position: center center;
-    color: #fff;
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    min-height: 100%;
+   
 }
 
 div.dashedLine {
