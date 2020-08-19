@@ -31,7 +31,7 @@ div.sectionWrapper {
     margin-top: 20px;
     background-color: #fff;
     font-weight: normal;
-    border-top: none;
+    border-top: 10px #fff solid;
 }
 
 /* Grey */
