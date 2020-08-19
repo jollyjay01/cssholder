@@ -14,7 +14,7 @@ div#contentOuterWrapper {
 }
 
 body {
-    background-color: 'black';
+    background-color: #fff;
 }
 
 /* Change BAFTA blue */
@@ -24,7 +24,7 @@ div.text, a {
 }
 
 div#topBorder, h3 {
-    background-color: #ad8f59;
+    background-color: 'red';
 }
 
 div.sectionWrapper {
