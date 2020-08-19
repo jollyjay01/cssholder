@@ -28,7 +28,11 @@ div#topBorder, h3 {
 }
 
 div.sectionWrapper {
-    border-top-color: #ad8f59;
+    margin-top: 20px;
+    border-top: 10px #654198 solid;
+    border-bottom: 10px #654198 solid;
+    background-color: #fff;
+    font-weight: normal;
 }
 
 /* Grey */
